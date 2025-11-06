@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Edwards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#hero">
+                    <span class="lang-en">Home</span>
+                    <span class="lang-zh">首頁</span>
+                </a>
+                <a href="#projects">
+                    <span class="lang-en">Projects</span>
+                    <span class="lang-zh">項目</span>
+                </a>
+                <a href="#contact">
+                    <span class="lang-en">Contact</span>
+                    <span class="lang-zh">聯絡</span>
+                </a>
+                <button id="langToggle" class="lang-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-name">
+                    <span class="lang-en">Bill Edwards</span>
+                    <span class="lang-zh">艾威朋</span>
+                </h1>
+                <div class="hero-divider"></div>
+                <p class="hero-title">
+                    <span class="lang-en">Data Scientist • Computer Enthusiast</span>
+                    <span class="lang-zh">數據科學家 • 電腦愛好者</span>
+                </p>
+                <p class="hero-description">
+                    <span class="lang-en">I extract value from data to improve the environment and people's day-to-day life.</span>
+                    <span class="lang-zh">我從數據中提取價值，以改善環境和人們的日常生活。</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-heading">
+                    <span class="lang-en">Selected Projects</span>
+                    <span class="lang-zh">精選項目</span>
+                </h2>
+                <div class="projects-container">
+                    <div class="projects-grid">
+                        <article class="project-card" data-popup-type="phone" data-project-id="green-moment">
+                            <div class="project-image-placeholder">
+                                <img src="assets/leaf_plug_single.png" alt="App logo" class="project-logo">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">
+                                    <span class="lang-en">Green Moment App</span>
+                                    <span class="lang-zh">減碳時刻App</span>
+                                </h3>
+                                <p class="project-description">
+                                    <span class="lang-en">On going, TaiPower grid carbon intensity forecast app.</span>
+                                    <span class="lang-zh">持續中。台電電網排碳強度預測App。</span>
+                                </p>
+                                <div class="project-keywords">
+                                    <span class="keyword">
+                                        <span class="lang-en">Python</span>
+                                        <span class="lang-zh">Python</span>
+                                    </span>
+                                    <span class="keyword">
+                                        <span class="lang-en">ML</span>
+                                        <span class="lang-zh">機器學習</span>
+                                    </span>
+                                    <span class="keyword">
+                                        <span class="lang-en">GCP</span>
+                                        <span class="lang-zh">GCP</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-popup-type="computer" data-project-id="uni-map">
+                            <div class="project-image-placeholder">
+                                <img src="assets/pineapple.png" alt="Website Logo" class="project-logo">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">
+                                    <span class="lang-en">Uni job and rent hunt map</span>
+                                    <span class="lang-zh">大學打工/租屋地圖</span>
+                                </h3>
+                                <p class="project-description">
+                                    <span class="lang-en">A leaflet based map website with job and rent opportunities near my uni listed.</span>
+                                    <span class="lang-zh">Leaflet為基底的地圖網站。呈現中正大學周圍打工/租屋機會。</span>
+                                </p>
+                                <div class="project-keywords">
+                                    <span class="keyword">
+                                        <span class="lang-en">Web Design</span>
+                                        <span class="lang-zh">Web Design</span>
+                                    </span>
+                                    <span class="keyword">
+                                        <span class="lang-en">Web Analytics</span>
+                                        <span class="lang-zh">Web Analytics</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-popup-type="computer" data-project-id="home-server">
+                            <div class="project-image-placeholder">
+                                <img src="assets/wcg_logo_circles.svg" alt="Website Logo" class="project-logo">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">
+                                    <span class="lang-en">Home server</span>
+                                    <span class="lang-zh">個人伺服器</span>
+                                </h3>
+                                <p class="project-description">
+                                    <span class="lang-en">I donate compute to help find the cure for cancer and Africa weather simulations.</span>
+                                    <span class="lang-zh">透過捐出算力幫助尋找癌症解藥和非洲天氣預測。</span>
+                                </p>
+                                <div class="project-keywords">
+                                    <span class="keyword">
+                                        <span class="lang-en">Linux</span>
+                                        <span class="lang-zh">Linux</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-heading">
+                    <span class="lang-en">Get In Touch</span>
+                    <span class="lang-zh">聯絡我</span>
+                </h2>
+                <div class="contact-content">
+                    <div class="contact-cards-grid">
+                        <div class="contact-card email-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">
+                                    <span class="lang-en">Email</span>
+                                    <span class="lang-zh">電子郵件</span>
+                                </span>
+                                <a href="mailto:bill.edwards.workmail@gmail.com" class="contact-link">bill.edwards.workmail@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card phone-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">
+                                    <span class="lang-en">Phone</span>
+                                    <span class="lang-zh">電話</span>
+                                </span>
+                                <a href="tel:+886965824304" class="contact-link">(+886) 965 824 304</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card social-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">
+                                    <span class="lang-en">X (Twitter)</span>
+                                    <span class="lang-zh">X (推特)</span>
+                                </span>
+                                <a href="https://x.com/CashPrinter3000" class="contact-link" target="_blank" rel="noopener noreferrer">@CashPrinter3000</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card instagram-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">
+                                    <span class="lang-en">Instagram <em>(rarely used)</em></span>
+                                    <span class="lang-zh">Instagram <em>(很少使用)</em></span>
+                                </span>
+                                <a href="https://instagram.com/bill.edwards_42" class="contact-link" target="_blank" rel="noopener noreferrer">@bill.edwards_42</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Green Moment App Popup -->
+    <div id="greenMomentPopup" class="popup-overlay" aria-hidden="true">
+        <div class="popup-container" data-type="phone" role="dialog" aria-labelledby="green-moment-title" aria-describedby="green-moment-content">
+            <div class="popup-header">
+                <h2 id="green-moment-title" class="popup-title">
+                    <span class="lang-en">Green Moment App</span>
+                    <span class="lang-zh">減碳時刻App</span>
+                </h2>
+                <button class="popup-close" aria-label="Close popup">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="popup-image-section">
+                <div class="popup-image-container">
+                    <div class="popup-images">
+                        <img src="assets/38135.jpg" alt="Green Moment App Screen 1" loading="lazy" class="active-slide enlargeable">
+                        <img src="assets/38136.jpg" alt="Green Moment App Screen 1" loading="lazy" class="enlargeable">
+                        <img src="assets/38138.jpg" alt="Green Moment App Screen 2" loading="lazy" class="enlargeable">
+                    </div>
+                </div>
+                <div class="slideshow-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+            <div class="popup-about-section">
+                <div id="green-moment-content" class="popup-about">
+                    <h3 class="about-title">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh">關於</span>
+                    </h3>
+                    <p class="lang-en">99% of Taiwan's population uses the Taipower power grid. I monitor the Taipower grid every ten minutes, use it's current generation portfolio (coal: 1,000MW, solar: 2,000MW) to get the CO2e emission for a kwh generated on the Taipower grid for that ten minutes, and utilize ml to predict future carbon emissions to tell the user when to use electricity to emit less carbon. Surprisingly, no one has thought to do this before.</p>
+                    <p class="lang-zh">99%的台灣人口都使用台電的電網。我每十分鐘監測台電電網，用它當下的發電組合(燃煤: 1,000MW，太陽能: 2,000MW)來算出電網當下生產一度電排放多少CO2e(不同時間產生一度電的排電因發電組合不同會有高低)，並使用機器學習來預測電網排碳並告訴使用者何時用電會產生較低的碳排放。</p>
+                    
+                    <p class="lang-en"><em>Status: Almost done with the last ML part being migrated onto GCP.</em></p>
+                    <p class="lang-zh"><em>狀態：接近完成，須將最後機器學習部份轉移至GCP雲端。</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Uni Map Popup -->
+    <div id="uniMapPopup" class="popup-overlay" aria-hidden="true">
+        <div class="popup-container" data-type="computer" role="dialog" aria-labelledby="uni-map-title" aria-describedby="uni-map-content">
+            <div class="popup-header">
+                <h2 id="uni-map-title" class="popup-title">
+                    <span class="lang-en">Uni Job and Rent Hunt Map</span>
+                    <span class="lang-zh">大學打工/租屋地圖</span>
+                </h2>
+                <button class="popup-close" aria-label="Close popup">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="popup-image-section">
+                <div class="popup-image-container">
+                    <div class="popup-images">
+                        <img src="assets/map.png" alt="Uni Job and Rent Hunt Map Interface" loading="lazy" class="active-slide enlarge">
+                        <img src="assets/jobmap.png" alt="Uni Job and Rent Hunt Map Interface" loading="lazy">
+                        <img src="assets/rentmap.png" alt="Uni Job and Rent Hunt Map Interface" loading="lazy">
+                    </div>
+                    <button class="popup-link-btn" aria-label="Visit project">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="slideshow-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+            <div class="popup-about-section">
+                <div id="uni-map-content" class="popup-about">
+                    <h3 class="about-title">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh">關於</span>
+                    </h3>
+                    <p class="lang-en">At CCU, establishments post their job listing in FB communities and complain about posts easily being washed away by new posts and the complexity in reaching students. I created an interactive leaflet based websites to show students about the job listings from establishments near our school and peoples review about working there. Since the domain name is ccumap.com, I also created a map for students who is looking for places to rent, and let the two maps piggy back off of each other in terms of being remembered by students.</p>
+                    <p class="lang-zh">在中正大學，店家會將他們的職缺放在臉書社團的貼文中。他們時常抱怨貼文很容易被洗掉，很難接觸到學生。我做了一個以leaflet地圖為基底的互動式地圖，上面以點在地圖上呈現了各店家的質缺憾過去打工的人對他們的評價。同時，既然網域名是租用ccumap.com，我同時做了租屋地圖，讓單獨去看低依地圖的使用者也會注意到另一個地圖，增加地圖被使用的機會。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Server Popup -->
+    <div id="homeServerPopup" class="popup-overlay" aria-hidden="true">
+        <div class="popup-container" data-type="computer" role="dialog" aria-labelledby="home-server-title" aria-describedby="home-server-content">
+            <div class="popup-header">
+                <h2 id="home-server-title" class="popup-title">
+                    <span class="lang-en">Home Server</span>
+                    <span class="lang-zh">個人伺服器</span>
+                </h2>
+                <button class="popup-close" aria-label="Close popup">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="popup-image-section">
+                <div class="popup-image-container">
+                    <div class="popup-images">
+                        <img src="https://via.placeholder.com/600x338/f0f0f0/333333?text=Server+Dashboard" alt="Home Server Dashboard" loading="lazy" class="active-slide">
+                    </div>
+                    <button class="popup-link-btn" aria-label="Visit World Community Grid" onclick="window.open('https://www.worldcommunitygrid.org/', '_blank')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="slideshow-dots">
+                    <button class="dot active" data-slide="0"></button>
+                </div>
+            </div>
+            <div class="popup-about-section">
+                <div id="home-server-content" class="popup-about">
+                    <h3 class="about-title">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh">關於</span>
+                    </h3>
+                    <p class="lang-en">A dedicated home server setup contributing computational resources to scientific research through distributed computing projects including cancer research, climate modeling, and COVID-19 studies.</p>
+                    <p class="lang-zh">專用家庭伺服器設置，透過分散式運算專案為科學研究貢獻計算資源，包括癌症研究、氣候建模和COVID-19研究。</p>
+                    
+                    <p class="lang-en">Running 24/7 on Linux with energy-efficient hardware configuration, contributing thousands of compute hours annually to humanitarian research projects through World Community Grid and other distributed computing platforms.</p>
+                    <p class="lang-zh">在Linux上24/7運行，採用節能硬體配置，每年透過世界社區網格和其他分散式運算平台為人道主義研究專案貢獻數千計算小時。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
